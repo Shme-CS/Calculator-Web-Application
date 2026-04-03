@@ -43,6 +43,104 @@ body {
     justify-content: center;
     align-items: center;
     color: var(--text-primary);
+    overflow-x: hidden;
+}
+
+/* ===================================
+   SPLASH SCREEN
+   =================================== */
+
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--primary-bg) 0%, var(--secondary-bg) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeOut 0.5s ease-out 2.5s forwards;
+}
+
+.splash-content {
+    text-align: center;
+    animation: slideUp 0.8s ease-out;
+}
+
+.splash-icon {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+.splash-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, var(--btn-equals), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.splash-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 30px;
+}
+
+.splash-loader {
+    width: 200px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.loader-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--btn-equals), var(--accent-color));
+    border-radius: 2px;
+    animation: loading 2s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes loading {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 /* ===================================
@@ -55,6 +153,69 @@ body {
     align-items: center;
     gap: 20px;
     padding: 20px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out 2.8s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* ===================================
+   HEADER SECTION
+   =================================== */
+
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+    animation: slideDown 0.6s ease-out 3s backwards;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.header-icon {
+    font-size: 2.5rem;
+    animation: rotate 3s ease-in-out infinite;
+}
+
+.header-subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
 }
 
 .calculator {
@@ -65,10 +226,22 @@ body {
     max-width: 400px;
     width: 100%;
     transition: transform 0.3s ease;
+    animation: scaleIn 0.5s ease-out 3.2s backwards;
 }
 
 .calculator:hover {
     transform: translateY(-5px);
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 /* ===================================
@@ -204,6 +377,7 @@ body {
     text-align: center;
     color: var(--text-secondary);
     font-size: 0.9rem;
+    animation: fadeIn 0.5s ease-out 3.5s backwards;
 }
 
 .heart {
@@ -235,6 +409,26 @@ body {
     
     .btn {
         padding: 20px;
+    }
+    
+    .splash-title {
+        font-size: 2rem;
+    }
+    
+    .splash-subtitle {
+        font-size: 1rem;
+    }
+    
+    .splash-icon {
+        font-size: 4rem;
+    }
+    
+    .header-title {
+        font-size: 1.5rem;
+    }
+    
+    .header-icon {
+        font-size: 2rem;
     }
 }
 

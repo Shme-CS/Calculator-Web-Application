@@ -323,3 +323,18 @@ function animateButton(selector) {
 // ===================================
 
 calculator.updateDisplay();
+
+// ===================================
+// SPLASH SCREEN MANAGEMENT
+// ===================================
+
+/**
+ * Remove splash screen after animation completes
+ */
+window.addEventListener('load', () => {
+    const splashScreen = document.getElementById('splashScreen');
+    
+    setTimeout(() => {
+        splashScreen.style.display = 'none';
+    }, 3000);
+});
