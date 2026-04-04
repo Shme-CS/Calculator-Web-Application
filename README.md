@@ -2,10 +2,9 @@
 
 A modern, responsive calculator web application built with vanilla JavaScript, demonstrating clean code architecture and professional frontend development practices.
 
-![Calculator Preview](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square&logo=javascript)
-![HTML5](https://img.shields.io/badge/HTML5-Semantic-orange?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-Grid-blue?style=flat-square&logo=css3)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square&logo=javascript) ![HTML5](https://img.shields.io/badge/HTML5-Semantic-orange?style=flat-square&logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-Grid-blue?style=flat-square&logo=css3) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Shme--CS-181717?logo=github)](https://github.com/Shme-CS) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin)](https://www.linkedin.com/in/shmelis-kassa-28058a305) [![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail)](mailto:project1111mail@gmail.com)
 
 ## 📋 Project Overview
 
@@ -227,7 +226,7 @@ Tested and working on:
 
 MIT License
 
-Copyright (c) 2026 [Your Name]
+Copyright (c) 2026 Shmelis Kassa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -259,10 +258,14 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👨‍💻 Author
 
-**Shmelis Solomon**
-- GitHub: [@Shme-CS](https://github.com/Shme-CS)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+**Shmelis Kassa (Shme-CS)**
+
+- 💼 **LinkedIn:** [Shmelis Kassa](https://www.linkedin.com/in/shmelis-kassa-28058a305)
+- 📧 **Email:** project1111mail@gmail.com
+- 🐙 **GitHub:** [@Shme-CS](https://github.com/Shme-CS)
+- 🌐 **Portfolio:** [github.com/Shme-CS](https://github.com/Shme-CS)
+
+Feel free to reach out for collaborations, questions, or just to connect!
 
 ## 🙏 Acknowledgments
 
@@ -272,6 +275,6 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-⭐ Star this repository if you found it helpful!
+⭐ **Star this repository if you found it helpful!**
 
-Made with ♥ using Vanilla JavaScript
+**Made with ❤️ using Vanilla JavaScript**
